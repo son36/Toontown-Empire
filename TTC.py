@@ -55,12 +55,15 @@ bodyNodes += [head, ears]
 bodyNodes += [sleeves, shirt, skirt]
 bodyNodes += [neck, arms, legs, feet]
 bodyNodes[0].setColor(1, 1, 1, 1)
-bodyNodes[1].setColor(0.5, 0.5, 0.5, 1)
-bodyNodes[2].setColor(0.5, 0.5, 0.5, 1)
-bodyNodes[6].setColor(0.5, 0.5, 0.5, 1)
-bodyNodes[7].setColor(0.5, 0.5, 0.5, 1)
-bodyNodes[8].setColor(0.5, 0.5, 0.5, 1)
-bodyNodes[9].setColor(0.5, 0.5, 0.5, 1)
+bodyNodes[1].setColor(0.30, 0.84, 0.94, 1)
+bodyNodes[2].setColor(0.30, 0.84, 0.94, 1)
+bodyNodes[3].setColor(0.10, 0.34, 0.29, 1)
+bodyNodes[4].setColor(0.56, 0.84, 0.33, 1)
+bodyNodes[5].setColor(0.56, 0.84, 0.33, 1)
+bodyNodes[6].setColor(0.40, 0.84, 0.76, 1)
+bodyNodes[7].setColor(0.40, 0.84, 0.76, 1)
+bodyNodes[8].setColor(0.18, 0.54, 0.73, 1)
+bodyNodes[9].setColor(0.18, 0.54, 0.73, 1)
  
 topTex = loader.loadTexture('phase_4/maps/tt_t_chr_avt_shirt_sellbotCrusher.jpg')
 botTex = loader.loadTexture('phase_4/maps/tt_t_chr_avt_shorts_sellbotCrusher.jpg')

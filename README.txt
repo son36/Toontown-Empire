@@ -3,6 +3,8 @@ Toontown-Empire
 
 playground viewer for Toontown
 
+None of this code was stolen from Logano's playground viewer on MMO Central Forums
+
 Version 1.0.2
 
 Release Notes:

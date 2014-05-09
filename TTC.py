@@ -488,9 +488,8 @@ class ClassicBook:
         self.BookClose.removeNode()
  
         self.bg = []
-        for b in range(2):
+        for b in range(1):
             self.bg.append(Guitools.createFrame('phase_3.5/maps/middayskyB.jpg', base.win.getXSize()+160, base.win.getYSize()+125))
-            self.bg.append(Guitools.createFrame('phase_3.5/maps/new_gui.jpg',600,450))
             self.bg[b].reparentTo(aspect2d)
  
         self.bg[0].setPos(0,0,0)

@@ -91,7 +91,7 @@ geom.getChild(0).setSz(0.730000019073)
 offset = 3.2375
    
 base.camera.reparentTo(DuckBody)
-base.camera.setPos(0, -20.0 - offset, offset)
+base.camera.setPos(0, -10.0 - offset, offset)
 wallBitmask = BitMask32(1)
 floorBitmask = BitMask32(2)
 base.cTrav = CollisionTraverser()
@@ -525,9 +525,7 @@ class EnvironmentTTC():
         self.modeldict[nodename].find('**/prop_post_light_base').hide();self.modeldict[nodename].find('**/p1').hide()
         self.modeldict[nodename].find('**/prop_post_one_light').hide();self.modeldict[nodename].find('**/p13').hide()
  
-         
- 
- 
+
 environ = EnvironmentTTC()
 base.taskMgr.add(updateOnScreenDebug, 'UpdateOSD')
 base.oobe()
